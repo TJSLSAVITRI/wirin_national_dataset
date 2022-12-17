@@ -1,0 +1,58 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    /* background-color:#fefbd8;   */
+    font-family: 'Arial';  
+}  
+.login{  
+        float: left;
+        width: 400px;  
+        height: 300 px;
+        overflow: hidden;  
+        /* margin: auto;  
+        margin: 20 0 0 800px;   */
+        margin-left:23px;
+        margin-bottom:23px;
+        /* margin-right: 10px; */
+        padding: 40px;  
+        background: rgba(117, 169, 218, 0.947);  
+        border-radius: 15px ; 
+        border-color: black;
+        border-width: 20px;
+          
+}  
+.mainh{  
+    text-align: center;  
+    color: black;  
+    padding: 20px;  
+}  
+label{  
+    /* color: #08ffd1;   */
+    color:black;
+    font-size: 17px;  
+}  
+#logi{  
+    width: 100px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-right: 7px;  
+    color: rgba(114, 20, 72, 0.947);;  
+    float: right;
+  
+  
+}
+.download-btn{
+    background-color:DodgerBlue;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius:5px;
+}
+
+.download-btn:hover {
+    background-color: RoyalBlue;
+  }
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WIRIN DATASET</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="js/main.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    </head>
+    <body>
+        <span>
+            <span style = 'color:rgba(114, 20, 72, 0.947); font-size: 72px; font-style: bold; left: 12px;'>NATIONAL DATASET</span>
+            <a href="https://www.wipro.com/"> <img src = 'images/wipro-trans.svg' height="100" width = "100" style = 'float: right;padding-top:15px;'/></a>
+             <!-- <a href="https://www.nid.edu/home"><img src = 'images/nid_trans.svg' height="100" width = "150" style = 'float: right; padding-top:50px;'/></a> -->
+            <a href="https://iisc.ac.in"> <img src = 'https://iisc.ac.in/wp-content/uploads/2020/08/IISc_Master_Seal_Black_Transparent.png' height="125" width = "150" style = 'float: right;'/></a>
+          <a href="https://rvce.edu.in"><img src = 'images/rv_trans.png' height="100" width = "100" style = 'float: right; padding-top: 15px;'/> </a>       
+         </span>
+        <hr style = 'margin-top: 50px;'/>
+        <div class = "menu_bar">
+        <ul>
+            <li><a href = "main.html"><i class = "fa fa-home"></i>Home</a></li>
+            <li><a href = "contacts.html"><i class = "fa fa-phone"></i>Contacts</a></li>
+            <li><a href = "#"><i class = "fa fa-clone"></i>Dataset</a>
+            <div class = "sub_menu">
+                <ul>
+                    <li><a href = "details.html">Details</a></li>
+                    <li><a href = "download.html">Download</a></li>
+                </ul>
+            </div>
+            </li>
+            <li><a href = "index.html"><i class = "fa fa-user"></i>Logout</a></li>
+        </ul>
+    </div>
+    <!-- <br><br>
+    <br><br> -->
+    <!-- <section class = "slider-container">
+        <div class = "container">
+            <div class = "swiper card_slider">
+                <div class = "swiper-wrapper">
+                    <div class = "swiper-slide">
+                        <div class = "img-box-1">
+                            <img src = "images/collage_final.jpg" >
+                        </div>
+                    </div>
+                    <div class = "swiper-slide">
+                        <div class = "img-box-2">
+                            <img src = "images/car_image_1.jpg" height="500" width = "500">
+                        </div>
+                    </div>
+                    <div class = "swiper-slide">
+                        <div class = "img-box-3">
+                            <img src = "images/car_image_2.jpg" height="500" width = "500">
+                        </div>
+                    </div>
+                    <div class = "swiper-slide">
+                        <div class = "img-box-4">
+                            <img src = "images/car_image_3.jpg" height="500" width = "500">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".card_slider", {
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+      });
+    //   var slideIndex = 0;
+    //   showSlides();
+    //   function showSlides() {
+    //     var i;
+    //     var slides = document.getElementsByClassName("card_slider");
+    //     console.log(slides.length);
+    //     for(i = 0; i < slides.length; i++) {
+    //       slides[i].style.display = "none";
+    //     }
+    //     slideIndex++;
+    //     if(slideIndex > slides.length) {
+    //       slideIndex = 1
+    //     }
+    //     slides[slideIndex - 1].style.display = "block";
+    //     setTimeout(showSlides, 2000); // Change image every 2 seconds
+    //   }
+      </script> -->
+
+      <!-- <hr> -->
+      <div>
+        <h2 style = "color:black">About us</h2>
+        <p align = "justify" style = "color:black; line-height: 30px;padding-left: 70px;padding-right: 70px; font-size:18px">
+            Bangalore has been and continues to be in the state of  transportation infrastructure growth. The WIRIN dataset has extensive coverage of numerous traffic scenarios encountered within the Bangalore urban area.
+
+WIRIN dataset comprises over 2000 semantic and point cloud images each, and 29 dataset classes. These cover the roadway, traffic conditions and vehicles frequently encountered in Bangalore’s urban traffic environment and its outskirts. The dataset has been collected empirically and continues to be expanded. The car drives through traffic and captures the video using a camera attached to the front of the car.
+
+The WIRIN dataset is a Fine Type dataset. This means that each class delineates boundaries with pixel-level precision. It is a collection of images to be used for training an autonomous car.
+
+
+        </p>
+        </div>
+        <hr>
+        <h2 style = "color:black" id = 'contacts'>References</h2>
+        <p id = "contacts" align = "justify" style = "color:black; line-height: 30px;padding-left: 70px;padding-right: 70px; font-size: 18px;">
+           <a href="https://ouster.com/">
+            <img src="images/download.jpg" height="400" width = "500"/>
+           </a>
+           <a href="https://www.flir.eu/products/blackfly-s-usb3/">
+            <img src="images/blackflys_Camera_Image.png" alt="Blackflys Camera Images" height="400" width = "550" /><br>
+           </a>
+        </p>
+        </div>
+    </div>
+    </body>
+</html>
